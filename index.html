@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Horizonte Craft Alpha 0.0.6</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main id="container_game">
+    
+    <section id="controls_game">
+      <div id="joystick">
+        <div id="handle"></div>
+      </div>
+      
+      <div id="settings">
+        <button id="btSettings" class="btnArray">||</button>
+        
+
+        <div id="btnUtility">
+          <button>Quebrar</button>
+          <button>Atacar</button>
+            <button id="cutButton">Corta</button>
+        </div>
+        
+        <div id="inventory_lot">
+          <nav id="lot1" class=""></nav>
+          <nav id="lot2" class="inventory"></nav>
+          <nav id="lot3" class="inventory"></nav>
+          <nav id="lot4" class="inventory"></nav>
+          <nav id="lot5" class="inventory"></nav>
+          <nav id="lot6" class="inventory"></nav>
+        </div>
+        
+        <nav id="localSettings">
+          <button class="btnArray">Jogar</button>
+          <button>Configuração</button>
+        </nav>
+      </div>
+    </section>
+  </main>
+  <script src="https://unpkg.com/three@0.146.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.146.0/examples/js/controls/PointerLockControls.js"></script>
+  <script src="https://unpkg.com/three@0.146.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://unpkg.com/three@0.146.0/examples/js/controls/TransformControls.js"></script>
+  <script type="module" src="main.js"></script>
+  <script type="module" src="src/script.js"></script>
+</body>
+
+</html>
